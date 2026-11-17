@@ -18,7 +18,7 @@ disableKinds = ['taxonomy', 'term', 'RSS', 'section']
   github = 'https://github.com/ShengKaiHsu'
   cv_pdf = 'https://github.com/ShengKaiHsu/cv/raw/main/cv.pdf'
   # Fill in once the lab site is live:
-  lab_url = ''
+  lab_url = 'https://plantecolgenomicslab.github.io/LabWebSite/'
   lab_name = 'Lab of Plant Ecological Genomics'
 
   bio = '''
