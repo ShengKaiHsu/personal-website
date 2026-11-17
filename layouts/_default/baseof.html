@@ -13,7 +13,7 @@
     })();
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ with .Site.Params.name_zh }} {{ . }}{{ end }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ .Site.Params.description }}">
   <meta name="author" content="{{ .Site.Title }}">
   <meta property="og:title" content="{{ .Site.Title }}">
@@ -24,6 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  {{ with .Site.Params.name_zh }}<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&text={{ . | urlquery }}&display=swap" rel="stylesheet">{{ end }}
   {{ $css := resources.Get "site.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230f8577'/><text x='16' y='21.5' font-family='Georgia,serif' font-size='15' fill='white' text-anchor='middle'>SH</text></svg>">
