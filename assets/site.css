@@ -113,6 +113,11 @@ p { margin: 0; }
   font: 600 3.4rem/1 var(--serif); letter-spacing: .02em;
 }
 .hero h1 { font: 600 2.6rem/1.15 var(--serif); margin: 0 0 6px; letter-spacing: -.01em; }
+.name-zh {
+  font-family: "Noto Serif TC", "Source Han Serif TC", "PMingLiU", serif;
+  font-weight: 500; font-size: .72em; color: var(--muted);
+  letter-spacing: .06em; margin-left: .2em; white-space: nowrap;
+}
 .role { font-size: 1.1rem; font-weight: 500; }
 .affil { color: var(--muted); }
 .links { list-style: none; padding: 0; margin: 20px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
