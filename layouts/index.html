@@ -1,0 +1,144 @@
+{{ define "main" }}
+{{ $cv := .Site.Data.cv }}
+{{ $p := .Site.Params }}
+{{ $scholar := index $cv.info "google scholar" }}
+
+<nav class="topnav" aria-label="Sections">
+  <div class="wrap topnav-inner">
+    <a class="brand" href="#top">{{ $cv.name }}</a>
+    <div class="topnav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#publications">Publications</a>
+      <a href="#talks">Talks</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <div class="portrait">
+    {{ with $p.photo }}
+      <img src="{{ . | relURL }}" alt="Portrait of {{ $cv.name }}" width="168" height="168">
+    {{ else }}
+      <div class="monogram" aria-hidden="true">SH</div>
+    {{ end }}
+  </div>
+  <div class="hero-text">
+    <h1>{{ $cv.name }}</h1>
+    <p class="role">{{ $p.title }}</p>
+    <p class="affil">{{ $cv.info.affiliation }}</p>
+    <ul class="links">
+      {{ with $cv.info.email }}<li><a href="mailto:{{ . }}">{{ partial "icon" "mail" }}Email</a></li>{{ end }}
+      {{ with $p.cv_pdf }}<li><a href="{{ . }}">{{ partial "icon" "doc" }}CV (PDF)</a></li>{{ end }}
+      {{ with $scholar }}<li><a href="{{ .url }}">{{ partial "icon" "scholar" }}Google Scholar</a></li>{{ end }}
+      {{ with $cv.info.orcid }}<li><a href="{{ .url }}">{{ partial "icon" "orcid" }}ORCID</a></li>{{ end }}
+      {{ with $p.github }}<li><a href="{{ . }}">{{ partial "icon" "code" }}GitHub</a></li>{{ end }}
+      {{ with $p.lab_url }}<li><a class="lab-link" href="{{ . }}">{{ partial "icon" "lab" }}{{ $p.lab_name }}</a></li>{{ end }}
+    </ul>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="about">
+    <h2>About</h2>
+    <div class="prose">{{ $p.bio | markdownify }}</div>
+    {{ with $p.interests }}
+    <h3 class="minor">Research interests</h3>
+    <ul class="tags">{{ range . }}<li>{{ .name }}</li>{{ end }}</ul>
+    {{ end }}
+  </section>
+
+  {{ with $p.news }}
+  <section id="news">
+    <h2>News</h2>
+    <ul class="dated">
+      {{ range . }}<li><span class="when">{{ .date }}</span><span>{{ .text | markdownify }}</span></li>{{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  <section id="experience">
+    <h2>Positions &amp; Education</h2>
+    <ol class="timeline">
+      {{ range $cv.positions }}
+      <li class="{{ .kind }}">
+        <span class="when">{{ .years }}</span>
+        <div>
+          <p class="what">{{ .title }}</p>
+          <p class="where">{{ .place }}</p>
+          {{ with .note }}<p class="note">{{ . }}</p>{{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </section>
+
+  <section id="publications">
+    <div class="section-head">
+      <h2>Publications</h2>
+      <div class="filter" role="group" aria-label="Filter publications">
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="first" aria-pressed="false">First author</button>
+        <button type="button" data-filter="senior" aria-pressed="false">Senior author</button>
+      </div>
+    </div>
+    <p class="legend">
+      <span class="badge first">First</span> first author ·
+      <span class="badge senior">Senior</span> last author
+      {{ with $scholar }}· Full list on <a href="{{ .url }}">Google Scholar</a>{{ end }}
+    </p>
+
+    {{ with $cv.preprints }}
+    <h3 class="minor">Preprints</h3>
+    {{ partial "publist" . }}
+    {{ end }}
+
+    <h3 class="minor">Peer-reviewed</h3>
+    {{ partial "publist" $cv.publications }}
+    <p class="empty" hidden>No papers match this filter.</p>
+  </section>
+
+  <section id="talks">
+    <h2>Selected Presentations</h2>
+    <ul class="dated talks">
+      {{ range $cv.presentations }}
+      <li>
+        <span class="when">{{ .year }}</span>
+        <div>
+          <p class="talk-title">{{ .title | markdownify }}</p>
+          <p class="talk-meta"><span class="kind">{{ .kind }}</span> · {{ .venue }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <p>© {{ now.Year }} {{ $cv.name }}{{ with $cv.updated }} · CV data updated {{ . }}{{ end }}</p>
+</footer>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.filter button');
+    var items = document.querySelectorAll('#publications .pub');
+    var empty = document.querySelector('#publications .empty');
+    var heads = document.querySelectorAll('#publications h3.minor');
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var f = b.dataset.filter, shown = 0;
+        buttons.forEach(function (x) { x.setAttribute('aria-pressed', x === b); });
+        items.forEach(function (it) {
+          var ok = f === 'all' || it.classList.contains(f);
+          it.hidden = !ok; if (ok) shown++;
+        });
+        heads.forEach(function (h) {
+          var list = h.nextElementSibling;
+          h.hidden = list && !list.querySelector('.pub:not([hidden])');
+        });
+        empty.hidden = shown > 0;
+      });
+    });
+  })();
+</script>
+{{ end }}

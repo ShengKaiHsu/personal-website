@@ -1,0 +1,324 @@
+{
+  "name": "Sheng-Kai Hsu",
+  "info": {
+    "affiliation": "Biodiversity Research Center, Academia Sinica",
+    "email": "sh2246@cornell.edu",
+    "orcid": {
+      "label": "0000-0002-6942-7163",
+      "url": "https://orcid.org/0000-0002-6942-7163"
+    },
+    "google scholar": {
+      "label": "Sheng-Kai Hsu",
+      "url": "https://scholar.google.com/citations?user=u_wofDgAAAAJ"
+    }
+  },
+  "positions": [
+    {
+      "years": "2026–present",
+      "title": "Principal Investigator",
+      "place": "Biodiversity Research Center, Academia Sinica, Taiwan",
+      "kind": "position"
+    },
+    {
+      "years": "2022–2026",
+      "title": "Postdoctoral research fellow",
+      "place": "Institute for Genomic Diversity, Cornell University",
+      "kind": "position",
+      "note": "Advisor: Edward Buckler"
+    },
+    {
+      "years": "2017–2021",
+      "title": "Ph.D.",
+      "place": "Vienna Graduate School of Population Genetics, Univ. of Veterinary Medicine Vienna",
+      "kind": "education",
+      "note": "Advisor: Christian Schlötterer"
+    },
+    {
+      "years": "2014–2015",
+      "title": "M.Sc.",
+      "place": "Department of Agronomy, National Taiwan University",
+      "kind": "education",
+      "note": "Advisor: Chih-Wei Tung"
+    },
+    {
+      "years": "2010–2014",
+      "title": "B.Sc.",
+      "place": "Department of Agronomy, National Taiwan University",
+      "kind": "education"
+    }
+  ],
+  "publications": [
+    {
+      "authors": "Oren, E., Zhai, J., Rooney, T.E., Angelovici, R., Hale, C.O., Brindisi, L.J., **Hsu, S.-K.**, Gault, C.M., Hua, J., La, T., Lepak, N., Fu, Q., Buckler, E.S., & Romay, M.C.",
+      "year": 2026,
+      "title": "Evolutionary constraint on a core winter proteome across independently cold-adapted PACMAD grasses",
+      "venue": "*PLOS One*, *21*(10), e0358458",
+      "doi": "https://doi.org/10.1371/journal.pone.0358458",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "Zhai, J., Gokaslan, A., **Hsu, S.-K.**, Chen, S.-P., Liu, Z.-Y., Marroquin, E., Czech, E., Cannon, B., Berthel, A., Romay, M.C., Pennell, M., Kuleshov, V., & Buckler, E.S.",
+      "year": 2026,
+      "title": "PlantCAD2: A DNA foundation model for interpreting genomes across flowering plants",
+      "venue": "*Cell Genomics*, *6*(9), 101329",
+      "doi": "https://doi.org/10.1016/j.xgen.2026.101329",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "Hale, C.O., **Hsu, S.-K.**, Zhai, J., Schulz, A., Aubuchon-Elder, T., Costa-Neto, G., Gelfond, A., El-Walid, M.Z., Hufford, M., Kellogg, E.A., La, T., Marand, A.P., Seetharam, A.S., Scheben, A., Stitzer, M.C., Wrightsman, T., Romay, M.C., & Buckler, E.S.",
+      "year": 2025,
+      "title": "Widespread turnover of a conserved cis-regulatory code across 589 grass species",
+      "venue": "*Molecular Biology and Evolution*, *43*(1)",
+      "doi": "https://doi.org/10.1093/molbev/msaf324",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "Schulz, A.J., Zhai, J., AuBuchon‐Elder, T., Andorf, C.M., El‐Walid, M.Z., Ferebee, T.H., Gilmore, E.H., Hufford, M.B., Johnson, L.C., Kellogg, E.A., …, & **Hsu, S.-K.**",
+      "year": 2025,
+      "title": "Fishing for a reelGene: evaluating gene models with evolution and machine learning",
+      "venue": "*The Plant Journal*, *123*(6)",
+      "doi": "https://doi.org/10.1111/tpj.70483",
+      "first_author": false,
+      "senior_author": true
+    },
+    {
+      "authors": "Ojeda-Rivera, J.O., Barnes, A.C., Ainsworth, E.A., Angelovici, R., Basso, B., Brindisi, L.J., Brooks, M.D., Busch, W., Buttelmann, G.L., Castellano, M.J., …, **Hsu, S.-K.**, …, & Buckler, E.S.",
+      "year": 2025,
+      "title": "Designing a nitrogen-efficient cold-tolerant maize for modern agricultural systems",
+      "venue": "*The Plant Cell*, *37*(7)",
+      "doi": "https://doi.org/10.1093/plcell/koaf139",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "**Hsu, S.-K.**, Emmett, B.D., Haafke, A., Costa‐Neto, G., Schulz, A.J., Lepak, N., La, T., AuBuchon‐Elder, T.M., Hale, C.O., Raglin, S.S., Ojeda‐Rivera, J.O., Kent, A.D., Kellogg, E.A., Romay, M.C., & Buckler, E.S.",
+      "year": 2025,
+      "title": "Contrasting rhizosphere nitrogen dynamics in Andropogoneae grasses",
+      "venue": "*The Plant Journal*, *123*(1)",
+      "doi": "https://doi.org/10.1111/tpj.70319",
+      "first_author": true,
+      "senior_author": false
+    },
+    {
+      "authors": "Thorhölludottir, D.A.V., **Hsu, S.-K.**, Barghi, N., Mallard, F., Nolte, V., & Schlötterer, C.",
+      "year": 2025,
+      "title": "Reduced Parallel Gene Expression Evolution With Increasing Genetic Divergence—A Hallmark of Polygenic Adaptation",
+      "venue": "*Molecular Ecology*, *34*(12)",
+      "doi": "https://doi.org/10.1111/mec.17803",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "Lai, W.-Y., **Hsu, S.-K.**, Futschik, A., & Schlötterer, C.",
+      "year": 2025,
+      "title": "Pleiotropy increases parallel selection signatures during adaptation from standing genetic variation",
+      "venue": "*eLife*, *13*",
+      "doi": "https://doi.org/10.7554/eLife.102321.3",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "**Hsu, S.-K.**, Lai, W.-Y., Novak, J., Lehner, F., Jakšić, A.M., Versace, E., & Schlötterer, C.",
+      "year": 2024,
+      "title": "Reproductive isolation arises during laboratory adaptation to a novel hot environment",
+      "venue": "*Genome Biology*, *25*(1)",
+      "doi": "https://doi.org/10.1186/s13059-024-03285-9",
+      "first_author": true,
+      "senior_author": false
+    },
+    {
+      "authors": "Buchner, S., **Hsu, S.-K.**, Nolte, V., Otte, K.A., & Schlötterer, C.",
+      "year": 2023,
+      "title": "Effects of larval crowding on the transcriptome of *Drosophila simulans*",
+      "venue": "*Evolutionary Applications*, *16*(10), 1671-1679",
+      "doi": "https://doi.org/10.1111/eva.13592",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "**Hsu, S.-K.**, Belmouaden, C., Nolte, V., & Schlötterer, C.",
+      "year": 2020,
+      "title": "Parallel gene expression evolution in natural and laboratory evolved populations",
+      "venue": "*Molecular Ecology*, *30*(4), 884-894",
+      "doi": "https://doi.org/10.1111/mec.15649",
+      "first_author": true,
+      "senior_author": false
+    },
+    {
+      "authors": "Jakšić, A.M., Karner, J., Nolte, V., **Hsu, S.-K.**, Barghi, N., Mallard, F., Otte, K.A., Svečnjak, L., Senti, K.-A., & Schlötterer, C.",
+      "year": 2020,
+      "title": "Neuronal Function and Dopamine Signaling Evolve at High Temperature in Drosophila",
+      "venue": "*Molecular Biology and Evolution*, *37*(9), 2630-2640",
+      "doi": "https://doi.org/10.1093/molbev/msaa116",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "**Hsu, S.-K.**, Jakšić, A.M., Nolte, V., Lirakis, M., Kofler, R., Barghi, N., Versace, E., & Schlötterer, C.",
+      "year": 2020,
+      "title": "Rapid sex-specific adaptation to high temperature in Drosophila",
+      "venue": "*eLife*, *9*",
+      "doi": "https://doi.org/10.7554/eLife.53237",
+      "first_author": true,
+      "senior_author": false
+    },
+    {
+      "authors": "**Hsu, S.-K.**, Jakšić, A.M., Nolte, V., Barghi, N., Mallard, F., Otte, K.A., & Schlötterer, C.",
+      "year": 2019,
+      "title": "A 24 h Age Difference Causes Twice as Much Gene Expression Divergence as 100 Generations of Adaptation to a Novel Environment",
+      "venue": "*Genes*, *10*(2), 89",
+      "doi": "https://doi.org/10.3390/genes10020089",
+      "first_author": true,
+      "senior_author": false
+    },
+    {
+      "authors": "Lin, P.-C., Tsai, Y.-C., **Hsu, S.-K.**, Ou, J.-H., Liao, C.-T., & Tung, C.-W.",
+      "year": 2018,
+      "title": "Identification of natural variants affecting chlorophyll content dynamics during rice seedling development",
+      "venue": "*Plant Breeding*, *137*(3), 355-363",
+      "doi": "https://doi.org/10.1111/pbr.12584",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "**Hsu, S.-K.**, & Tung, C.-W.",
+      "year": 2017,
+      "title": "RNA-Seq Analysis of Diverse Rice Genotypes to Identify the Genes Controlling Coleoptile Growth during Submerged Germination",
+      "venue": "*Frontiers in Plant Science*, *8*",
+      "doi": "https://doi.org/10.3389/fpls.2017.00762",
+      "first_author": true,
+      "senior_author": false
+    },
+    {
+      "authors": "**Hsu, S.-K.**, & Tung, C.-W.",
+      "year": 2015,
+      "title": "Genetic Mapping of Anaerobic Germination-Associated QTLs Controlling Coleoptile Elongation in Rice",
+      "venue": "*Rice*, *8*(1)",
+      "doi": "https://doi.org/10.1186/s12284-015-0072-3",
+      "first_author": true,
+      "senior_author": false
+    }
+  ],
+  "preprints": [
+    {
+      "authors": "Yen, M.-R., Zhai, J., **Hsu, S.-K.**, & Wu, T.-Y.",
+      "year": 2026,
+      "title": "BryoCAD: Extending Plant DNA Foundation Models Beyond Flowering Plants",
+      "venue": "*bioRxiv*",
+      "doi": "https://doi.org/10.64898/2026.11.09.765485",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "**Hsu, S.-K.**, Schulz, A.J., Hale, C.O., Costa-Neto, G., Miller, Z.R., Stitzer, M.C., Wrightsman, T., Zhai, J., Lai, W.-Y., Dawson, H.D., …, & Buckler, E.S.",
+      "year": 2026,
+      "title": "Convergent genome- and gene-level constraints shape repeated environmental adaptation in grasses",
+      "venue": "*bioRxiv*",
+      "doi": "https://doi.org/10.64898/2026.06.01.729361",
+      "first_author": true,
+      "senior_author": false
+    },
+    {
+      "authors": "Ojeda-Rivera, J.O., Oren, E., **Hsu, S.-K.**, Lepak, N., La, T., Zhai, J., Stitzer, M.C., Yobi, A., Angelovici, R., Buckler, E.S., & Romay, M.C.",
+      "year": 2026,
+      "title": "A transcriptomic atlas of grass senescence reveals divergent underground sink networks limit nitrogen recycling in annuals",
+      "venue": "*bioRxiv*",
+      "doi": "https://doi.org/10.64898/2026.05.05.723041",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "El-Walid, M.Z., Gault, C.M., Costich, D.E., Lepak, N.K., Budka, J.S., Stitzer, M.C., Giri, A., Rees, E., Romay, M.C., Buckler, E.S., & **Hsu, S.-K.**",
+      "year": 2025,
+      "title": "Identification of Freezing Tolerance QTLs in *Tripsacum dactyloides* Using Open-Pollinated Bulk Segregant Analysis",
+      "venue": "*bioRxiv*",
+      "doi": "https://doi.org/10.64898/2025.12.10.693030",
+      "first_author": false,
+      "senior_author": true
+    },
+    {
+      "authors": "Liu, Z.-Y., Berthel, A., Czech, E., Marroquin, E., Stitzer, M., **Hsu, S.-K.**, Pennell, M., Buckler, E.S., & Zhai, J.",
+      "year": 2025,
+      "title": "GeneCAD: Plant Genome Annotation with a DNA Foundation Model",
+      "venue": "*bioRxiv*",
+      "doi": "https://doi.org/10.1101/2025.10.31.685877",
+      "first_author": false,
+      "senior_author": false
+    },
+    {
+      "authors": "Stitzer, M.C., Seetharam, A.S., Scheben, A., **Hsu, S.-K.**, Schulz, A.J., AuBuchon-Elder, T.M., El-Walid, M., Ferebee, T.H., Hale, C.O., La, T., …, & Hufford, M.B.",
+      "year": 2025,
+      "title": "Extensive genome evolution distinguishes maize within a stable tribe of grasses",
+      "venue": "*bioRxiv*",
+      "doi": "https://doi.org/10.1101/2025.01.22.633974",
+      "first_author": false,
+      "senior_author": false
+    }
+  ],
+  "presentations": [
+    {
+      "year": 2025,
+      "title": "The genetic basis of environmental adaptation in Poaceae",
+      "kind": "Poster",
+      "venue": "The 67th Annual Maize Genetic Meeting, March 6-9, St. Loius, MO USA"
+    },
+    {
+      "year": 2024,
+      "title": "The genetic basis of environmental adaptation in Poaceae",
+      "kind": "Poster",
+      "venue": "ICQG7, July 22-26, Vienna, Austria"
+    },
+    {
+      "year": 2024,
+      "title": "The phylogenetic variation in the rhizosphere nitrogen cycle of diverse grass species in the Andropogoneae",
+      "kind": "Oral",
+      "venue": "The 66th Annual Maize Genetic Meeting, February 29-March 3, Raleigh, NC, USA"
+    },
+    {
+      "year": 2024,
+      "title": "The phylogenetic variation in the rhizosphere nitrogen cycle of diverse grass species in the Andropogoneae",
+      "kind": "Oral",
+      "venue": "Plant and Animal Genome 31, January 12-17, San Diego, CA, USA"
+    },
+    {
+      "year": 2023,
+      "title": "The phylogenetic variation in the rhizosphere nitrogen cycle of diverse grass species in the Andropogoneae",
+      "kind": "Poster",
+      "venue": "The 65th Annual Maize Genetic Meeting, March 16-19, St. Louis, MO, USA"
+    },
+    {
+      "year": 2021,
+      "title": "Polygenic adaptation drives rapid evolution of pre- and post-mating reproductive isolation",
+      "kind": "Poster",
+      "venue": "The 62nd Annual Drosophila Research Conference, March 20-24, Online"
+    },
+    {
+      "year": 2019,
+      "title": "Sex-specific adaptation to high temperature in Drosophila",
+      "kind": "Oral",
+      "venue": "ESEB 2019, August 19-24, Turku, Finland"
+    },
+    {
+      "year": 2018,
+      "title": "Sexually antagonistic gene expression evolution in Drosophila simulans populations adapting to a novel thermal environment",
+      "kind": "Oral",
+      "venue": "PopGroup 51, January 3-6, Bristol, UK"
+    },
+    {
+      "year": 2017,
+      "title": "Genetics and molecular analysis of anaerobic germination in rice",
+      "kind": "Poster",
+      "venue": "Plant and Animal Genomes 25, January 14-18, San Diego, CA, USA"
+    },
+    {
+      "year": 2013,
+      "title": "Identification of quantitative trait loci (QTL) associated with anaerobic germination of rice (Oryza Sativa)",
+      "kind": "Poster",
+      "venue": "The 7th International Rice Genetics Symposium, November 4-8, Manila, Philippines"
+    }
+  ],
+  "updated": "2026-11-12"
+}

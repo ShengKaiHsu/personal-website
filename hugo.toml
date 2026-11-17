@@ -1,3 +1,45 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://shengkaihsu.github.io/personal-website/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Sheng-Kai Hsu'
+disableKinds = ['taxonomy', 'term', 'RSS', 'section']
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Most content (positions, publications, talks) comes from data/cv.json,
+# which scripts/sync_cv.py generates from https://github.com/ShengKaiHsu/cv.
+# Everything below is hand-edited.
+[params]
+  description = 'Sheng-Kai Hsu, Principal Investigator at the Biodiversity Research Center, Academia Sinica. Plant ecological genomics.'
+  title = 'Principal Investigator'
+  # Put a square photo at static/images/profile.jpg and uncomment:
+  # photo = 'images/profile.jpg'
+  github = 'https://github.com/ShengKaiHsu'
+  cv_pdf = 'https://github.com/ShengKaiHsu/cv/raw/main/cv.pdf'
+  # Fill in once the lab site is live:
+  lab_url = ''
+  lab_name = 'Lab of Plant Ecological Genomics'
+
+  bio = '''
+I am a Principal Investigator at the [Biodiversity Research Center, Academia Sinica (BRCAS)](https://biodiv.sinica.edu.tw/) in Taiwan.
+My lab studies plant ecological genomics. We characterize the ecological niches of plant species at large scale,
+use AI to investigate genomes across species, and build predictive models of evolutionary innovation in plants.
+
+My training spans population, evolutionary and quantitative genetics, in both plants and animals.
+'''
+
+  [[params.interests]]
+    name = 'Plant ecological genomics'
+  [[params.interests]]
+    name = 'Ecological niche characterization'
+  [[params.interests]]
+    name = 'AI for cross-species genomics'
+  [[params.interests]]
+    name = 'Predicting evolutionary innovation'
+  [[params.interests]]
+    name = 'Population & quantitative genetics'
+
+  # Optional news items, newest first. Delete or add freely.
+  [[params.news]]
+    date = '2026'
+    text = 'Started my lab at the Biodiversity Research Center, Academia Sinica.'

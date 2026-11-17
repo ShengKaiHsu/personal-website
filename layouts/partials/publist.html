@@ -1,0 +1,20 @@
+<ol class="publist">
+  {{ range . }}
+  {{ if .raw }}
+  <li class="pub"><p class="pub-title">{{ .raw | markdownify }}</p></li>
+  {{ else }}
+  <li class="pub{{ if .first_author }} first{{ end }}{{ if .senior_author }} senior{{ end }}">
+    <span class="when">{{ .year }}</span>
+    <div>
+      <p class="pub-title">
+        {{ if .doi }}<a href="{{ .doi }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}
+        {{ if .first_author }}<span class="badge first">First</span>{{ end }}
+        {{ if .senior_author }}<span class="badge senior">Senior</span>{{ end }}
+      </p>
+      <p class="pub-authors">{{ .authors | markdownify }}</p>
+      <p class="pub-venue">{{ .venue | markdownify }}</p>
+    </div>
+  </li>
+  {{ end }}
+  {{ end }}
+</ol>
