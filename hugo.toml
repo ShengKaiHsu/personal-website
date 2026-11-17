@@ -12,8 +12,8 @@ disableKinds = ['taxonomy', 'term', 'RSS', 'section']
 [params]
   description = 'Sheng-Kai Hsu, Principal Investigator at the Biodiversity Research Center, Academia Sinica. Plant ecological genomics.'
   title = 'Principal Investigator'
-  # Put a square photo at static/images/profile.jpg and uncomment:
-  # photo = 'images/profile.jpg'
+  # Square photo at static/images/profile.jpg (480x480 is plenty):
+  photo = 'images/profile.jpg'
   github = 'https://github.com/ShengKaiHsu'
   cv_pdf = 'https://github.com/ShengKaiHsu/cv/raw/main/cv.pdf'
   # Fill in once the lab site is live:
