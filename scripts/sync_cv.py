@@ -17,6 +17,7 @@ from pathlib import Path
 CV_URL = "https://raw.githubusercontent.com/ShengKaiHsu/cv/main/cv.md"
 OUT = Path(__file__).resolve().parent.parent / "data" / "cv.json"
 ME = "**Hsu, S.-K.**"
+CO_FIRST = "\\*"  # cv.md marks co-first authorship as  **Hsu, S.-K.**\*
 
 PUB_RE = re.compile(
     r"^(?P<authors>.*?) \((?P<year>\d{4})\)\. \*\*(?P<title>.+?)\*\*\.\s*"
@@ -100,6 +101,8 @@ def parse_pubs(lines):
             pubs.append({"raw": body})
             continue
         authors = p.group("authors").strip()
+        co_first = (ME + CO_FIRST) in authors
+        plain = authors.replace(ME + CO_FIRST, ME)
         venue = p.group("venue").strip().rstrip(".").strip()
         pubs.append({
             "authors": authors,
@@ -107,8 +110,9 @@ def parse_pubs(lines):
             "title": p.group("title").strip(),
             "venue": venue,
             "doi": (p.group("doi") or "").rstrip("."),
-            "first_author": authors.startswith(ME),
-            "senior_author": authors.rstrip(".").endswith(ME) and not authors.startswith(ME),
+            "first_author": plain.startswith(ME) and not co_first,
+            "co_first_author": co_first,
+            "senior_author": plain.rstrip(".").endswith(ME) and not plain.startswith(ME),
         })
     return pubs
 

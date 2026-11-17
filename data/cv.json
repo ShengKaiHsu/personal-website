@@ -49,12 +49,23 @@
   ],
   "publications": [
     {
+      "authors": "Ojeda-Rivera, J.O., Oren, E., **Hsu, S.-K.**, Lepak, N., La, T., Zhai, J., Stitzer, M.C., Yobi, A., Angelovici, R., Buckler, E.S., & Romay, M.C.",
+      "year": 2026,
+      "title": "A transcriptomic atlas of grass senescence reveals divergent underground sink networks promote nitrogen recycling in perennials",
+      "venue": "*The Plant Cell*",
+      "doi": "https://doi.org/10.1093/plcell/koag345",
+      "first_author": false,
+      "co_first_author": false,
+      "senior_author": false
+    },
+    {
       "authors": "Oren, E., Zhai, J., Rooney, T.E., Angelovici, R., Hale, C.O., Brindisi, L.J., **Hsu, S.-K.**, Gault, C.M., Hua, J., La, T., Lepak, N., Fu, Q., Buckler, E.S., & Romay, M.C.",
       "year": 2026,
       "title": "Evolutionary constraint on a core winter proteome across independently cold-adapted PACMAD grasses",
       "venue": "*PLOS One*, *21*(10), e0358458",
       "doi": "https://doi.org/10.1371/journal.pone.0358458",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -64,6 +75,7 @@
       "venue": "*Cell Genomics*, *6*(9), 101329",
       "doi": "https://doi.org/10.1016/j.xgen.2026.101329",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -73,6 +85,7 @@
       "venue": "*Molecular Biology and Evolution*, *43*(1)",
       "doi": "https://doi.org/10.1093/molbev/msaf324",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -82,6 +95,7 @@
       "venue": "*The Plant Journal*, *123*(6)",
       "doi": "https://doi.org/10.1111/tpj.70483",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": true
     },
     {
@@ -91,6 +105,7 @@
       "venue": "*The Plant Cell*, *37*(7)",
       "doi": "https://doi.org/10.1093/plcell/koaf139",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -100,15 +115,17 @@
       "venue": "*The Plant Journal*, *123*(1)",
       "doi": "https://doi.org/10.1111/tpj.70319",
       "first_author": true,
+      "co_first_author": false,
       "senior_author": false
     },
     {
-      "authors": "Thorhölludottir, D.A.V., **Hsu, S.-K.**, Barghi, N., Mallard, F., Nolte, V., & Schlötterer, C.",
+      "authors": "Thorhölludottir, D.A.V., **Hsu, S.-K.**\\*, Barghi, N., Mallard, F., Nolte, V., & Schlötterer, C.",
       "year": 2025,
       "title": "Reduced Parallel Gene Expression Evolution With Increasing Genetic Divergence—A Hallmark of Polygenic Adaptation",
       "venue": "*Molecular Ecology*, *34*(12)",
       "doi": "https://doi.org/10.1111/mec.17803",
       "first_author": false,
+      "co_first_author": true,
       "senior_author": false
     },
     {
@@ -118,6 +135,7 @@
       "venue": "*eLife*, *13*",
       "doi": "https://doi.org/10.7554/eLife.102321.3",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -127,24 +145,27 @@
       "venue": "*Genome Biology*, *25*(1)",
       "doi": "https://doi.org/10.1186/s13059-024-03285-9",
       "first_author": true,
+      "co_first_author": false,
       "senior_author": false
     },
     {
-      "authors": "Buchner, S., **Hsu, S.-K.**, Nolte, V., Otte, K.A., & Schlötterer, C.",
+      "authors": "Buchner, S., **Hsu, S.-K.**\\*, Nolte, V., Otte, K.A., & Schlötterer, C.",
       "year": 2023,
       "title": "Effects of larval crowding on the transcriptome of *Drosophila simulans*",
       "venue": "*Evolutionary Applications*, *16*(10), 1671-1679",
       "doi": "https://doi.org/10.1111/eva.13592",
       "first_author": false,
+      "co_first_author": true,
       "senior_author": false
     },
     {
-      "authors": "**Hsu, S.-K.**, Belmouaden, C., Nolte, V., & Schlötterer, C.",
+      "authors": "**Hsu, S.-K.**\\*, Belmouaden, C., Nolte, V., & Schlötterer, C.",
       "year": 2020,
       "title": "Parallel gene expression evolution in natural and laboratory evolved populations",
       "venue": "*Molecular Ecology*, *30*(4), 884-894",
       "doi": "https://doi.org/10.1111/mec.15649",
-      "first_author": true,
+      "first_author": false,
+      "co_first_author": true,
       "senior_author": false
     },
     {
@@ -154,6 +175,7 @@
       "venue": "*Molecular Biology and Evolution*, *37*(9), 2630-2640",
       "doi": "https://doi.org/10.1093/molbev/msaa116",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -163,6 +185,7 @@
       "venue": "*eLife*, *9*",
       "doi": "https://doi.org/10.7554/eLife.53237",
       "first_author": true,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -172,6 +195,7 @@
       "venue": "*Genes*, *10*(2), 89",
       "doi": "https://doi.org/10.3390/genes10020089",
       "first_author": true,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -181,6 +205,7 @@
       "venue": "*Plant Breeding*, *137*(3), 355-363",
       "doi": "https://doi.org/10.1111/pbr.12584",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -190,6 +215,7 @@
       "venue": "*Frontiers in Plant Science*, *8*",
       "doi": "https://doi.org/10.3389/fpls.2017.00762",
       "first_author": true,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -199,6 +225,7 @@
       "venue": "*Rice*, *8*(1)",
       "doi": "https://doi.org/10.1186/s12284-015-0072-3",
       "first_author": true,
+      "co_first_author": false,
       "senior_author": false
     }
   ],
@@ -210,24 +237,17 @@
       "venue": "*bioRxiv*",
       "doi": "https://doi.org/10.64898/2026.11.09.765485",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": false
     },
     {
-      "authors": "**Hsu, S.-K.**, Schulz, A.J., Hale, C.O., Costa-Neto, G., Miller, Z.R., Stitzer, M.C., Wrightsman, T., Zhai, J., Lai, W.-Y., Dawson, H.D., …, & Buckler, E.S.",
+      "authors": "**Hsu, S.-K.**\\*, Schulz, A.J., Hale, C.O., Costa-Neto, G., Miller, Z.R., Stitzer, M.C., Wrightsman, T., Zhai, J., Lai, W.-Y., Dawson, H.D., …, & Buckler, E.S.",
       "year": 2026,
       "title": "Convergent genome- and gene-level constraints shape repeated environmental adaptation in grasses",
       "venue": "*bioRxiv*",
       "doi": "https://doi.org/10.64898/2026.06.01.729361",
-      "first_author": true,
-      "senior_author": false
-    },
-    {
-      "authors": "Ojeda-Rivera, J.O., Oren, E., **Hsu, S.-K.**, Lepak, N., La, T., Zhai, J., Stitzer, M.C., Yobi, A., Angelovici, R., Buckler, E.S., & Romay, M.C.",
-      "year": 2026,
-      "title": "A transcriptomic atlas of grass senescence reveals divergent underground sink networks limit nitrogen recycling in annuals",
-      "venue": "*bioRxiv*",
-      "doi": "https://doi.org/10.64898/2026.05.05.723041",
       "first_author": false,
+      "co_first_author": true,
       "senior_author": false
     },
     {
@@ -237,6 +257,7 @@
       "venue": "*bioRxiv*",
       "doi": "https://doi.org/10.64898/2025.12.10.693030",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": true
     },
     {
@@ -246,6 +267,7 @@
       "venue": "*bioRxiv*",
       "doi": "https://doi.org/10.1101/2025.10.31.685877",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": false
     },
     {
@@ -255,6 +277,7 @@
       "venue": "*bioRxiv*",
       "doi": "https://doi.org/10.1101/2025.01.22.633974",
       "first_author": false,
+      "co_first_author": false,
       "senior_author": false
     }
   ],
@@ -320,5 +343,5 @@
       "venue": "The 7th International Rice Genetics Symposium, November 4-8, Manila, Philippines"
     }
   ],
-  "updated": "2026-11-12"
+  "updated": "2026-11-17"
 }
