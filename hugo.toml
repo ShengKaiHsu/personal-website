@@ -1,3 +1,53 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://shengkaihsu.github.io/personal-website/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Sheng-Kai Hsu'
+disableKinds = ['taxonomy', 'term', 'RSS', 'section']
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Most content (positions, publications, talks) comes from data/cv.json,
+# which scripts/sync_cv.py generates from https://github.com/ShengKaiHsu/cv.
+# Everything below is hand-edited.
+[params]
+  description = 'Sheng-Kai Hsu, Principal Investigator at the Biodiversity Research Center, Academia Sinica. Evolutionary genomics of adaptation in plants and animals.'
+  title = 'Principal Investigator'
+  # Put a square photo at static/images/profile.jpg and uncomment:
+  # photo = 'images/profile.jpg'
+  github = 'https://github.com/ShengKaiHsu'
+  cv_pdf = 'https://github.com/ShengKaiHsu/cv/raw/main/cv.pdf'
+  # Fill in once the lab site is live:
+  lab_url = ''
+  lab_name = 'Hsu Lab'
+
+  # DRAFT — written from the CV; please edit.
+  bio = '''
+I am a Principal Investigator at the [Biodiversity Research Center, Academia Sinica](https://www.biodiv.tw/) in Taiwan.
+I study how populations adapt to their environment, and what that process leaves behind in genomes.
+
+My training spans plant genetics and evolutionary biology. I mapped anaerobic germination QTLs in rice
+at National Taiwan University (M.Sc., with Chih-Wei Tung), then used experimental evolution in
+*Drosophila simulans* to study polygenic adaptation, sex-specific adaptation and the emergence of
+reproductive isolation (Ph.D., Vienna Graduate School of Population Genetics, with Christian Schlötterer).
+As a postdoc with Edward Buckler at Cornell University, I worked on comparative genomics across hundreds of
+grass species: the genetic basis of environmental adaptation in the Andropogoneae, rhizosphere nitrogen
+dynamics, and DNA foundation models for plant genomes.
+'''
+
+  [[params.interests]]
+    name = 'Polygenic adaptation'
+  [[params.interests]]
+    name = 'Comparative & population genomics'
+  [[params.interests]]
+    name = 'Experimental evolution'
+  [[params.interests]]
+    name = 'Grass (Poaceae) diversity'
+  [[params.interests]]
+    name = 'Gene regulation & expression evolution'
+  [[params.interests]]
+    name = 'Machine learning for genomes'
+
+  # Optional news items, newest first. Delete or add freely.
+  [[params.news]]
+    date = '2026'
+    text = 'Started my lab at the Biodiversity Research Center, Academia Sinica.'
