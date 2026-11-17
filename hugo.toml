@@ -10,7 +10,7 @@ disableKinds = ['taxonomy', 'term', 'RSS', 'section']
 # which scripts/sync_cv.py generates from https://github.com/ShengKaiHsu/cv.
 # Everything below is hand-edited.
 [params]
-  description = 'Sheng-Kai Hsu, Principal Investigator at the Biodiversity Research Center, Academia Sinica. Evolutionary genomics of adaptation in plants and animals.'
+  description = 'Sheng-Kai Hsu, Principal Investigator at the Biodiversity Research Center, Academia Sinica. Plant ecological genomics.'
   title = 'Principal Investigator'
   # Put a square photo at static/images/profile.jpg and uncomment:
   # photo = 'images/profile.jpg'
@@ -20,32 +20,24 @@ disableKinds = ['taxonomy', 'term', 'RSS', 'section']
   lab_url = ''
   lab_name = 'Hsu Lab'
 
-  # DRAFT — written from the CV; please edit.
   bio = '''
-I am a Principal Investigator at the [Biodiversity Research Center, Academia Sinica](https://www.biodiv.tw/) in Taiwan.
-I study how populations adapt to their environment, and what that process leaves behind in genomes.
+I am a Principal Investigator at the [Biodiversity Research Center, Academia Sinica (BRCAS)](https://www.biodiv.tw/) in Taiwan.
+My lab studies plant ecological genomics. We characterize the ecological niches of plant species at large scale,
+use AI to investigate genomes across species, and build predictive models of evolutionary innovation in plants.
 
-My training spans plant genetics and evolutionary biology. I mapped anaerobic germination QTLs in rice
-at National Taiwan University (M.Sc., with Chih-Wei Tung), then used experimental evolution in
-*Drosophila simulans* to study polygenic adaptation, sex-specific adaptation and the emergence of
-reproductive isolation (Ph.D., Vienna Graduate School of Population Genetics, with Christian Schlötterer).
-As a postdoc with Edward Buckler at Cornell University, I worked on comparative genomics across hundreds of
-grass species: the genetic basis of environmental adaptation in the Andropogoneae, rhizosphere nitrogen
-dynamics, and DNA foundation models for plant genomes.
+My training spans population, evolutionary and quantitative genetics, in both plants and animals.
 '''
 
   [[params.interests]]
-    name = 'Polygenic adaptation'
+    name = 'Plant ecological genomics'
   [[params.interests]]
-    name = 'Comparative & population genomics'
+    name = 'Ecological niche characterization'
   [[params.interests]]
-    name = 'Experimental evolution'
+    name = 'AI for cross-species genomics'
   [[params.interests]]
-    name = 'Grass (Poaceae) diversity'
+    name = 'Predicting evolutionary innovation'
   [[params.interests]]
-    name = 'Gene regulation & expression evolution'
-  [[params.interests]]
-    name = 'Machine learning for genomes'
+    name = 'Population & quantitative genetics'
 
   # Optional news items, newest first. Delete or add freely.
   [[params.news]]
