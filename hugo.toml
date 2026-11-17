@@ -18,10 +18,10 @@ disableKinds = ['taxonomy', 'term', 'RSS', 'section']
   cv_pdf = 'https://github.com/ShengKaiHsu/cv/raw/main/cv.pdf'
   # Fill in once the lab site is live:
   lab_url = ''
-  lab_name = 'Hsu Lab'
+  lab_name = 'Lab of Plant Ecological Genomics'
 
   bio = '''
-I am a Principal Investigator at the [Biodiversity Research Center, Academia Sinica (BRCAS)](https://www.biodiv.tw/) in Taiwan.
+I am a Principal Investigator at the [Biodiversity Research Center, Academia Sinica (BRCAS)](https://biodiv.sinica.edu.tw/) in Taiwan.
 My lab studies plant ecological genomics. We characterize the ecological niches of plant species at large scale,
 use AI to investigate genomes across species, and build predictive models of evolutionary innovation in plants.
 
